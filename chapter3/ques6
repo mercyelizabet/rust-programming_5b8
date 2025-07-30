@@ -1,0 +1,8 @@
+fn main() {
+ 'outer:for i in 1..5 { //outer loop
+    println!("Muliplication Table : {}", i);
+   'inner:for j in 1..5 { 
+        println!("{} * {} = {}", i, j, i * j);
+   }
+ }
+}
