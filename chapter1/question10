@@ -1,0 +1,7 @@
+fn main() {
+    let literal = "hello";
+
+    let string_obj = String::from(literal);
+
+    println!("String object: {}", string_obj);
+}
