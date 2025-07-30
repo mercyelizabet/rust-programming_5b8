@@ -1,0 +1,8 @@
+fn main() {
+    //implicit type declaration
+   let x=5;
+   println!("x: {}",x);
+   //explicit type declaration
+   let y:i32=15;
+   println!("y: {}",y);
+}
