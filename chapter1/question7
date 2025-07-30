@@ -1,0 +1,6 @@
+fn main() {
+    let sample =(10,20, "Rust Programming");
+    println!("First Element: {}", sample.0);
+    println!("Second Element: {}", sample.1);
+    println!("Third Element: {}", sample.2);
+}
